@@ -15,7 +15,6 @@ const brblk = clc.blackBright;
 
 class Debugger {
   constructor(options){
-    console.log('Constructor called...');
     this.suppressOutput = typeof options.suppressOutput === 'undefined' ? false : options.suppressOutput;
     this.logTime = typeof options.logTime === 'undefined' ? false : options.logTime;
     this.showOptions();
@@ -42,13 +41,12 @@ class Debugger {
 }
 
 module.exports = function(options){
+  if (typeof options === 'undefined'){
+    options = {};
+  }
   if (process.env.NODE_ENV === 'development' || typeof process.env.NODE_ENV === 'undefined'){
-    if (typeof options === 'undefined'){
-      options = {};
-    }
     return new Debugger(options);
   } else if (process.env.NODE_ENV === 'production'){
-    let options = {};
     options.suppressOutput = true;
     return new Debugger(options);
   }
