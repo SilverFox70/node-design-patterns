@@ -1,0 +1,30 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Examples of GoF design patterns adpated for Node.js",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "factory",
+    "revealing",
+    "constructor",
+    "proxy",
+    "decorator",
+    "adapter",
+    "strategy",
+    "state",
+    "template",
+    "middleware",
+    "command"
+  ],
+  "author": "William F Brinkert",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
