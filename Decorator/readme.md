@@ -46,7 +46,15 @@ module.exports = decorate;
 
 The **decorate** function accepts two arguments: the original object we wish to decorate, and a method(s) we wish to add. We maintain the prototype chain by referencing the prototype of the subject component. Then we delegate all original method calls back to the subject's methods. Finally, we add all of our new functions to the decorated version.
 
-## Example
+### Compositional Decorator Example
 To see a trivial example of this pattern, check out the **decorate.js** script. We start with a simple object and add several functions using the decorator, although the original object remains unchanged.
+
+## Decorating directly - Object Augmentation
+Because of the nature of javascript, it is of course possible to simply add new functions directly to the subject object. This brings up a point: when we talk about decorating objects, we are discussing adding behaviors to instances of an object, not to its abstract class. This is different from how the Decorating Pattern is implemented in classical languages.
+
+### Object Augmentation Decorator
+The **augmenter.js** module and augmenter-example.js show the same simpleMath object being decorated as in the compositional model. Notice that object augmentation changes the subject component.
+
+
 
 
