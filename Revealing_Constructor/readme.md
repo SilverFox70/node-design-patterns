@@ -8,3 +8,7 @@ const p = new Promise((resolve, reject) =>{
     // Code for rejecting p
 });
 ```
+What is important to notice is that the internal workings of the Promise call the resolve or eject functions. The promise constructor accepts a single *executor function* as the only parameter.
+
+## The Example
+The code for this example is taken directly from _Node.js Design Patterns - Second Edition_
