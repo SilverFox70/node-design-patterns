@@ -57,9 +57,9 @@ const defender = stampit.compose(spaceUnit, beamer, launcher);
 
 // Example unit
 const enemyInterceptor = interceptor();
-enemyInterceptor.label = 'Deslonian Fighter';
-enemyInterceptor.move(3, 1, 0);
-enemyInterceptor.shoot(.30, .25, .17);
+// enemyInterceptor.label = 'Deslonian Fighter';
+// enemyInterceptor.move(3, 1, 0);
+// enemyInterceptor.shoot(.30, .25, .17);
 
 module.exports = {
   scout,
