@@ -17,7 +17,6 @@ const infoProxy = (subject) => {
     
     // simply pass along the name to the subject
     setName: (name) => {
-      console.log(name);
       subject.setName.call(subject, name);
     }
   }
