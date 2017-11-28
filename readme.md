@@ -10,3 +10,4 @@ This is a collection of examples of GoF Design Patterns in Node.js. Each Folder 
 * [Proxy](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Proxy)
 * [Decorator](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Decorator)
 * [Adapter](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Adapter)
+* [Strategy](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Strategy)
