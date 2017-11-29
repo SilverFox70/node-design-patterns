@@ -13,3 +13,4 @@ This is a collection of examples of GoF Design Patterns in Node.js. Each Folder 
 * [Strategy](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Strategy)
 * [State](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/State)
 * [Middleware](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Middleware)
+* [Command](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Command)
