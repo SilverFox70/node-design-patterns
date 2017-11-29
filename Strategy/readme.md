@@ -9,3 +9,5 @@ This example is taken directly from *Node.js Design Patterns - Second Edition*. 
 * **configTest.js** demonstrates our strategy pattern at work
 
 The Context object has logic for determining which kind of strategy to implement based upon the file extension. This is intended simply as a demonstration of the Strategy pattern. There is absolutely no error handling used, and other functionality, such as being able to read from one format and save to another, has not been implemented.
+
+To try this out: `node configTest`

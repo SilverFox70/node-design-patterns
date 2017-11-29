@@ -13,6 +13,8 @@ The example uses the following:
 * **infoProxy.js** : A proxy which delegates the *showInfo* and *setName* functions to the subject while intercepting and formatting the phone number before passing the data along to the subject.
 * **proxy-example.js** : A simple script for demonstrating the use of the proxy to interface with the subject.
 
+To see this in action: `node proxy-example`
+
 
 
 

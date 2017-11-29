@@ -7,3 +7,5 @@ Often over time an API will change format, breaking your code, or perhaps you ne
 
 ## Example
 The very simple adapter here allows us to use a single command 'attack' for all of our enemy ship instances. The adapter is responsible for then calling the correct method based on the attack method available to the object. Of course, if you were actually creating a game, using an adapter such as this is not likely the best way to handle control, but nevertheless it demonstrates how adapters can make it possible to interface with objects that have different underlying behaviors from each other.
+
+To run: `node controlAdapter`

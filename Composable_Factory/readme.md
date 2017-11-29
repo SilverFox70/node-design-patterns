@@ -20,3 +20,5 @@ From these base properties we then want to create more and different kinds of un
 * Defender: a stationary type unit that can fire lasers
 
 Of course we could define more behaviors and create an even greater number of different kinds of units for our game, and we want to make sure that we have complete freedom to combine behaviors in any way we want. In order to do this we are going to use the [stampit](https://github.com/stampit-org/stampit) module.
+
+To run the example: `node composableUnits`

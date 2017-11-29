@@ -62,3 +62,5 @@ Rather than allowing end users to call the constructor directly, we only expose 
 
 However, when we are in **production** environment, we override the `options` argument to suppress output. Of course, in the real world, overriding options passed in like this would be rude and rather unexpected, so we would likely want to throw an error so that it is understood that `suppressedOutput: false` is not possible in production environments. 
 
+To try this for yourself: `node debuggerTest`
+

@@ -12,3 +12,5 @@ What is important to notice is that the internal workings of the Promise call th
 
 ## The Example
 The code for this example is taken directly from _Node.js Design Patterns - Second Edition_
+
+To run this: `node tickerTester`
