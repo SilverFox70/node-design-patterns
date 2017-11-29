@@ -29,6 +29,7 @@
     "json-over-tcp": "^0.3.2",
     "mkdirp": "^0.5.1",
     "object-path": "^0.11.4",
-    "stampit": "^4.0.2"
+    "stampit": "^4.0.2",
+    "zmq": "^2.15.3"
   }
 }
