@@ -8,17 +8,15 @@ const http = require('http');
 const app = module.exports = new Express();
 app.use(bodyParser.json());
 
-const dbFactory = require('./lib/db');
-const authServiceFactory = require('./lib/authService');
-const authControllerFactory = require('./lib/authController');
+const diContainer = require('./lib/diContainer')();
 
-console.log(`dbFactory: ${JSON.stringify(dbFactory, null, 2)}`);
-console.log(`authServiceFactory: ${JSON.stringify(authServiceFactory, null, 2)}`);
-console.log(`authControllerFactory: ${JSON.stringify(authControllerFactory, null, 2)}`);
+diContainer.register('dbName', 'example-db');
+diContainer.register('tokenSecret', 'SHHH!');
+diContainer.factory('db', require('./lib/db'));
+diContainer.factory('authService', require('./lib/authService'));
+diContainer.factory('authController', require('./lib/authController'));
 
-const db = dbFactory('example-db');
-const authService = authServiceFactory(db, 'SHHH!');
-const authController = authControllerFactory(authService);
+const authController = diContainer.get('authController');
 
 app.post('/login', authController.login);
 app.get('/checkToken', authController.checkToken);

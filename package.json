@@ -37,6 +37,7 @@
     "mkdirp": "^0.5.1",
     "node-uuid": "^1.4.8",
     "object-path": "^0.11.4",
+    "parse-fn-args": "0.0.2",
     "stampit": "^4.0.2",
     "zmq": "^2.15.3"
   }
