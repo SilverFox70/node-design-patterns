@@ -14,3 +14,5 @@ This is a collection of examples of GoF Design Patterns in Node.js. Each Folder 
 * [State](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/State)
 * [Middleware](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Middleware)
 * [Command](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Command)
+* [Direct Injection](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/Direct_Injection)
+* [DI Container](https://bitbucket.akqa.net/users/william.brinkert/repos/node-design-patterns/browse/DI_Container)
