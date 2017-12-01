@@ -40,5 +40,8 @@
     "parse-fn-args": "0.0.2",
     "stampit": "^4.0.2",
     "zmq": "^2.15.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }

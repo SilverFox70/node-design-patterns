@@ -28,4 +28,4 @@ module.exports = (authService) => {
   };
 
   return authController;
-}
+};
