@@ -35,6 +35,7 @@
     "level": "^2.0.1",
     "level-sublevel": "^6.6.1",
     "mkdirp": "^0.5.1",
+    "mustache": "^2.3.0",
     "node-uuid": "^1.4.8",
     "object-path": "^0.11.4",
     "parse-fn-args": "0.0.2",
