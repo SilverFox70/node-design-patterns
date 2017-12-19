@@ -43,6 +43,7 @@
     "object-path": "^0.11.4",
     "parse-fn-args": "0.0.2",
     "stampit": "^4.0.2",
+    "webpack": "^3.10.0",
     "zmq": "^2.15.3"
   },
   "devDependencies": {
