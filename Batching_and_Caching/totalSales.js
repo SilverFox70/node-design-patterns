@@ -12,7 +12,10 @@ module.exports = function totalSales(item, callback) {
   salesDb.createValueStream()
     .on('data', data => {
       if (!item || data.item === item) { 
-        //complete code here...
+        sum += data.amount;
       }
     })
-}
+    .on('end', () => {
+      callback(null, sum);
+    });
+};
